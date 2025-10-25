@@ -1,0 +1,15 @@
+.top_header {
+	background: var(--accent);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	font-family: var(--font-family);
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 400;
+	color: var(--text-on-accent);
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+

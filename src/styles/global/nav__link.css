@@ -1,0 +1,18 @@
+.center_header__link {
+	font-family: var(--font-family);
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 400;
+	color: var(--text);
+	text-decoration: none;
+}
+
+.nav__link:first-child {
+	color: var(--accent);
+}
+
+.nav__link:hover {
+	text-decoration: underline;
+}
+
+

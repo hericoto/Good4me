@@ -1,6 +1,10 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  --bg-page: #ffffff;
+  --text: #000000;
+  --text-on-accent: #ffffff;
+  --accent: #f6623e;
+  --surface: #f4f3f4;
 }
+

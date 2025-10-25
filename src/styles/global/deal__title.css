@@ -1,0 +1,9 @@
+.deal__title {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 1.2;
+	color: var(--text);
+}
+
+

@@ -1,0 +1,10 @@
+.banner1__details__subtitle {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.1;
+	color: var(--text);
+	padding-top: 8px;
+}
+
+
