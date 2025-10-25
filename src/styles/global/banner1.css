@@ -1,7 +1,5 @@
 .banner1 {
-	position: relative;
-	min-height: 500px;
-	background: url('/images/banner1.png') center/cover no-repeat;
+  position: relative;
+  min-height: 500px;
+  background: url('/images/banner1.png') center/cover no-repeat;
 }
-
-

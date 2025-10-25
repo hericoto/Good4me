@@ -1,8 +1,6 @@
 .center_header__nav {
-	display: flex;
-	gap: 24px;
-	align-items: center;
-	margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 0 auto;
 }
-
-

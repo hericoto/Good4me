@@ -1,11 +1,9 @@
 .banner1__details__text {
-	font-family: var(--font-family);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.6;
-	color: var(--text);
-	padding-top: 12px;
-	padding-bottom: 12px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text);
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
-
-

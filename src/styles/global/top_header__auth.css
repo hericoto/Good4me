@@ -1,7 +1,5 @@
-.top_header__auth  {
-    display: flex;
-	align-items: center;
-	gap: 8px;
+.top_header__auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-
-

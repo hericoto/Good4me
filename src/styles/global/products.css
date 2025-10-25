@@ -1,8 +1,6 @@
 .products {
-	display: flex;
-	justify-content: center;
-	gap: 24px;
-	margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
 }
-
-

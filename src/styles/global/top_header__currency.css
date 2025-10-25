@@ -1,8 +1,6 @@
 .top_header__currency {
-	display: flex;
-	align-items: center;
-	gap: 6px;
-	margin-left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 12px;
 }
-
-

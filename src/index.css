@@ -38,5 +38,5 @@
 @import './styles/global/product__caption.css';
 
 body {
-	background: var(--bg-page);
+  background: var(--bg-page);
 }
