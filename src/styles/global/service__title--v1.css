@@ -1,0 +1,8 @@
+.service__title--v1 {
+  padding-top: 15px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: var(--text);
+}
