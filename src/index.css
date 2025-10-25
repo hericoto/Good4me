@@ -36,6 +36,9 @@
 @import './styles/global/product__image.css';
 @import './styles/global/product__caption.css';
 
+@import './styles/global/reviews.css';
+@import './styles/global/shop-all.css';
+
 body {
   background: var(--bg-page);
 }

@@ -1,0 +1,92 @@
+/* Общие стили секции */
+.shop-all {
+    padding: 2rem 0;
+}
+
+.shop-all__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+/* Заголовок */
+.shop-all__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Сетка товаров */
+.shop-all__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Адаптивная сетка */
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Карточка товара */
+.shop-all__item {
+    text-align: left;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+}
+
+.shop-all__image-wrapper {
+    position: relative;
+}
+
+.shop-all__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.shop-all__sale-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #e67e22; /* Оранжевый цвет */
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+
+.shop-all-centerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-all__product-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.shop-all__price {
+    font-size: 0.8rem;
+}
+
+.shop-all__price--sale {
+  color: #e67e22; /* Оранжевый цвет */
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.shop-all__price--original {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* Кнопка "View All Products" */
+.shop-all__view-all {
+    border: 1px solid #F6623E; /* Убираем рамку по умолчанию */
+    border-radius: 5px; /* Добавляем скругление (если нужно) */
+    padding: 8px 16px; 
+}
+
+.shop-all__view-all:hover {
+    background-color:#F6623E;
+}
