@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="public/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Good4Me</title>
+    <link rel="stylesheet" href="src/index.css">
   </head>
   <body>
     <header class="top_header">
@@ -38,6 +39,7 @@
       </div>
     </div>
     <div class="banner1">
+      <img src="public/images/banner1.png" alt="Edge" class="banner1__edge" />
       <img src="public/images/edge1.png" alt="Edge" class="banner1__edge" />
       <div class="banner1_details">
         <div class="banner1__details__title">Good4Me</div>
@@ -73,23 +75,103 @@
         </div>
       </div>
     </div>
-    <div class="services-block">
-        <div class="service">
-          <img src="public/images/plane.png" alt="WORLDWIDE SHIPPING" class="service__image" />
-          <div class="service__title--v1">WORLDWIDE SHIPPING</div>
-          <div class="service__caption--v1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</div>
+
+    <!-- Секция отзывов -->
+    <section class="reviews">
+        <img src="public/images/SliderShowForReviewUp.png" alt="" class="reviews__edge reviews__edge--top">
+        <div class="reviews__container">
+          <div class="reviews__text">
+            <h2 class="reviews__subtitle">REAL REVIEWS</h2>
+            <h3 class="reviews__title">REAL RESULTS</h3>
+            <div class="reviews__rating">
+              <!-- Здесь можно использовать иконки звезд или Unicode символы -->
+              ★★★★★
+            </div>
+            <p class="reviews__quote">"We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on our website. We can't wait until you are a part of our Good4Me Family."</p>
+            <p class="reviews__author">- Chloe H.</p>
+            <div class="reviews__controls">
+              <button class="reviews__button reviews__button--prev">&lt;</button>
+              <button class="reviews__button reviews__button--next">&gt;</button>
+            </div>
+          </div>
+
+          <div class="reviews__image">
+            <img src="public/images/ReviewGood4Me.jpg" alt="Review" class="reviews__image-item">
+          </div>
         </div>
-        <div class="service">
-          <img src="public/images/moneybag.png" alt="30 DAYS GUARANTEE" class="service__image" />
-          <div class="service__title--v1">30 DAYS GUARANTEE</div>
-          <div class="service__caption--v1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</div>
+        
+        <img src="public/images/SliderShowForReviewBottom.png" alt="" class="reviews__edge reviews__edge--bottom">
+    </section>
+
+    <!-- секция магазина -->
+    <section class="shop-all">
+      <div class="shop-all__container">
+        <h2 class="shop-all__title">SHOP ALL</h2>
+
+        <div class="shop-all__grid">
+          <div class="shop-all__item">
+            <div class="shop-all__image-wrapper">
+              <img src="public/images/ShopAllFirstImage.png" alt="Hair, Skin & Nails" class="shop-all__image">
+              <span class="shop-all__sale-badge">ON SALE</span>
+            </div>
+            <h3 class="shop-all__product-name">**PRE-ORDER** HAIR, SKIN & NAILS (5 MONTH SUPPLY)</h3>
+            <p class="shop-all__price">
+              <span class="shop-all__price--sale">$39.95 NZD</span>
+              <span class="shop-all__price--original">$199.75 NZD</span>
+            </p>
+          </div>
+
+          <div class="shop-all__item">
+            <div class="shop-all__image-wrapper">
+              <img src="public/images/ShopAllSeondImage.png" alt="Detox + Bloat Support Value Pack" class="shop-all__image">
+              <span class="shop-all__sale-badge">ON SALE</span>
+            </div>
+            <h3 class="shop-all__product-name">DETOX + BLOAT SUPPORT VALUE PACK</h3>
+            <p class="shop-all__price">
+              <span class="shop-all__price--sale">$39.95 NZD</span>
+              <span class="shop-all__price--original">$199.75 NZD</span>
+            </p>
+          </div>
+
+          <div class="shop-all__item">
+            <div class="shop-all__image-wrapper">
+              <img src="public/images/ShopAllThirdImage.png" alt="Probiotics: Gut Health + Bloat Support" class="shop-all__image">
+              <span class="shop-all__sale-badge">ON SALE</span>
+            </div>
+            
+            <div class="shop-all-centerText">
+              <h3 class="shop-all__product-name">PROBIOTICS: GUT HEALTH + BLOAT SUPPORT</h3>
+            </div>
+            <div class="shop-all-centerText">
+              <p class="shop-all__price">
+                <span class="shop-all__price--sale">$39.95 NZD</span>
+                <span class="shop-all__price--original">$199.75 NZD</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="shop-all__item">
+            <div class="shop-all__image-wrapper">
+              <img src="public/images/ShopAllFourImage.png" alt="Apple Cider Vinegar" class="shop-all__image">
+              <span class="shop-all__sale-badge">ON SALE</span>
+            </div>
+            <div class="shop-all-centerText">
+              <h3 class="shop-all__product-name">APPLE CIDER VINEGAR</h3>
+            </div>
+            <div class="shop-all-centerText">
+              <p class="shop-all__price">
+                <span class="shop-all__price--sale">$94.95 NZD</span>
+                <span class="shop-all__price--original">$199.75 NZD</span>
+              </p>
+            </div>
+            
+          </div>
         </div>
-        <div class="service">
-          <img src="public/images/lock.png" alt="SECURED PAYMENTS" class="service__image" />
-          <div class="service__title--v1">SECURED PAYMENTS</div>
-          <div class="service__caption--v1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</div>
-        </div>
-    </div>
+        
+        <a href="#" class="shop-all__view-all">VIEW ALL PRODUCTS</a>
+      </div>
+    </section>
+
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

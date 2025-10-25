@@ -40,6 +40,9 @@
 @import './styles/global/service__title--v1.css';
 @import './styles/global/service__caption--v1.css';
 
+@import './styles/global/reviews.css';
+@import './styles/global/shop-all.css';
+
 body {
   background: var(--bg-page);
 }
