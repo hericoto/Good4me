@@ -43,6 +43,13 @@
 @import './styles/global/banner2_details.css';
 @import './styles/global/banner2__details__button.css';
 @import './styles/global/banner2_images.css';
+@import './styles/global/show-products.css';
+@import './styles/global/show-products__title.css';
+@import './styles/global/show-products__button-container.css';
+@import './styles/global/product__price.css';
+@import './styles/global/product__sale-badge.css';
+@import './styles/global/product--with-sale.css';
+@import './styles/global/product__image--v2.css';
 
 body {
   background: var(--bg-page);
