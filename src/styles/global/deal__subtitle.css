@@ -1,9 +1,9 @@
 .deal__subtitle {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.6;
-  color: var(--text);
+  color: var(--text-subtitle);
 }

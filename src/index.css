@@ -35,6 +35,10 @@
 @import './styles/global/product.css';
 @import './styles/global/product__image.css';
 @import './styles/global/product__caption.css';
+@import './styles/global/service.css';
+@import './styles/global/services-block.css';
+@import './styles/global/service__title--v1.css';
+@import './styles/global/service__caption--v1.css';
 
 body {
   background: var(--bg-page);
