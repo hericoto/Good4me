@@ -1,9 +1,9 @@
 :root {
   color-scheme: dark;
 
-  --bg-page: #000000;
-  --text: #ffffff;
-  --text-on-accent: #000000;
+  --bg-page: #000;
+  --text: #fff;
+  --text-on-accent: #000;
   --accent: #5b2619;
   --surface: #272727;
 }
