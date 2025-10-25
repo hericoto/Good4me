@@ -1,5 +1,5 @@
 .banner1 {
   position: relative;
   min-height: 500px;
-  background: url('/images/banner1.png') center/cover no-repeat;
+  background: url('public/images/banner1.png') center/cover no-repeat;
 }

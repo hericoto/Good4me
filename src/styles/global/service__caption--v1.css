@@ -1,0 +1,8 @@
+.service__caption--v1 {
+  padding-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: var(--text-caption);
+}
