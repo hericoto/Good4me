@@ -40,6 +40,9 @@
 @import './styles/global/service__title--v1.css';
 @import './styles/global/service__caption--v1.css';
 @import './styles/global/banner2.css';
+@import './styles/global/banner2_details.css';
+@import './styles/global/banner2__details__button.css';
+@import './styles/global/banner2_images.css';
 
 body {
   background: var(--bg-page);
