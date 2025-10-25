@@ -4,7 +4,7 @@
 }
 
 .shop-all__container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 2rem;
     text-align: center;
@@ -37,8 +37,8 @@
 }
 
 .shop-all__image {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 20rem;
     display: block;
 }
 
@@ -57,12 +57,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .shop-all__product-name {
     font-size: 0.9rem;
     font-weight: bold;
     margin-top: 0.5rem;
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 .shop-all__price {

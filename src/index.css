@@ -42,6 +42,7 @@
 
 @import './styles/global/reviews.css';
 @import './styles/global/shop-all.css';
+@import './styles/global/latest-news.css';
 
 body {
   background: var(--bg-page);
