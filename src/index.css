@@ -39,6 +39,7 @@
 @import './styles/global/services-block.css';
 @import './styles/global/service__title--v1.css';
 @import './styles/global/service__caption--v1.css';
+@import './styles/global/banner2.css';
 
 body {
   background: var(--bg-page);
