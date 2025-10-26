@@ -3,8 +3,7 @@
     background-color: #f9f5f1; 
     padding: 40px 0; 
     font-family: var(--font-family);
-    color: hsl(0, 0%, 40%); 
-    
+    color: var(--text-caption); 
 }
 
 .footer__container {
@@ -52,7 +51,10 @@
 }
 
 .footer__description {
-    font-size: 14px;
+    color:var(--text-subtitle);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: Jost;
     line-height: 1.5;
     margin-bottom: 20px;
     text-align: center;
@@ -85,7 +87,7 @@
     font-weight: 500;
     margin-bottom: 15px;
     font-family: Jost;
-    color:black;
+    color:var(--text);
 }
 
 .footer__title_More_Info {
@@ -93,17 +95,20 @@
     font-weight: 500;
     margin-bottom: 15px;
     font-family: Jost;
-    color:black;
+    color:var(--text);
 }
 
 .footer__subscribe-text {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: Jost;
+    color:var(--text-subtitle);
     margin-bottom: 15px;
 }
 
 .footer__form {
     display: flex; 
-    border-bottom: 1px solid #666; 
+    border-bottom: 1px solid var(--text); 
     padding-bottom: 5px;
 }
 
@@ -112,16 +117,24 @@
     border: none;
     background: none;
     outline: none;
-    color: #666; 
-    font-size: 14px;
+    color: var(--text); 
+    font-weight: 400;
+    font-style: Jost;
+    font-size: 16px;
+}
+
+.footer__email-input::placeholder {
+    color: var(--text); 
 }
 
 .footer__subscribe-button {
     background: none;
     border: none;
-    color: #e05838; 
+    color: var(--accent); 
     cursor: pointer;
-    font-size: 14px;
+    font-weight: 600;
+    font-style: Jost;
+    font-size: 16px;
 }
 
 .footer__links {
@@ -133,13 +146,15 @@
 .footer__links li a {
     display: block;
     text-decoration: none;
-    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-subtitle);
     margin-bottom: 5px;
 }
 
 .footer__bottom {
     padding-top: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--text-caption);
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
@@ -149,12 +164,12 @@
 
 .footer__copyright {
     font-size: 16px;
-    color: black;
+    color: var(--text);
     font-weight: 400;
 }
 
 .footer__span{
-    color:#F6623E;
+    color:var(--accent);
 }
 
 .footer__payment-methods {
