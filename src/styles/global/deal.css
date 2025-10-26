@@ -6,7 +6,7 @@
 
 @media (max-width: 480px) {
   .deal {
-    min-width: unset;
+    min-width: 22rem;
     padding: 30px 20px 0px;
   }
 }

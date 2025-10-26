@@ -4,3 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media (max-width: 480px) {
+  body {
+    min-width: 22rem;
+  }
+}

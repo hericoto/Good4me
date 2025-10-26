@@ -10,7 +10,7 @@
 
 @media (max-width: 480px) {
   .center_header {
-    min-width: unset;
+    min-width: 22rem;
     flex-wrap: wrap;
     padding: 15px 20px;
     gap: 15px;

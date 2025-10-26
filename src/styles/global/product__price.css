@@ -17,3 +17,18 @@
   font-size: 14px;
   color: var(--accent);
 }
+
+@media (max-width: 480px) {
+  .product__price {
+    padding-top: 6px;
+    gap: 2px;
+  }
+
+  .product__price--old {
+    font-size: 10px;
+  }
+
+  .product__price--new {
+    font-size: 12px;
+  }
+}

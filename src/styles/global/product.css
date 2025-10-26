@@ -8,7 +8,7 @@
 
 @media (max-width: 480px) {
   .product {
-    width: calc(50% - 7.5px);
-    max-width: 180px;
+    width: 100%;
+    max-width: 100%;
   }
 }

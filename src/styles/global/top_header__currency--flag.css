@@ -7,7 +7,6 @@
 
 @media (max-width: 480px) {
   .top_header__currency--flag {
-    width: 18px;
-    height: 12px;
+    display: none;
   }
 }
