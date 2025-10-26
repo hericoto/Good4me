@@ -1,0 +1,16 @@
+.banner2__details__button {
+  display: inline-block;
+  background: transparent;
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  padding: 12px 20px;
+  border: 2px solid var(--accent);
+}
+
+.banner2__details__button:hover {
+  background: var(--accent);
+  color: var(--text-on-accent);
+}

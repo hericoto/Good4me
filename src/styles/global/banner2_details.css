@@ -1,0 +1,27 @@
+.banner2_details {
+  max-width: 400px;
+  text-align: left;
+}
+
+.banner2__details__title {
+  font-family: var(--font-family);
+  font-weight: 650;
+  font-size: 35px;
+  color: var(--text-primary);
+}
+
+.banner2__details__text {
+  padding-bottom: 30px;
+}
+
+.banner2__details__text p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--text-subtitle);
+  padding-bottom: 15px;
+}
+
+.banner2__details__text p:last-child {
+  padding-bottom: 0;
+}

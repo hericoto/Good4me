@@ -1,0 +1,10 @@
+.product__image--v2 {
+  object-fit: contain;
+  box-sizing: border-box;
+  background: var(--surface);
+}
+
+.product:nth-child(2) .product__image--v2,
+.product:nth-child(3) .product__image--v2 {
+  padding: 10px;
+}
