@@ -1,4 +1,3 @@
-/* Общие стили секции */
 .shop-all {
     padding: 2rem 0;
 }
@@ -20,7 +19,7 @@
 /* Сетка товаров */
 .shop-all__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Адаптивная сетка */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 1rem;
     margin-bottom: 2rem;
 }
@@ -46,7 +45,7 @@
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    background-color: #e67e22; /* Оранжевый цвет */
+    background-color: #e67e22; 
     color: #fff;
     font-size: 0.7rem;
     padding: 0.2rem 0.4rem;
@@ -72,7 +71,7 @@
 }
 
 .shop-all__price--sale {
-  color: #e67e22; /* Оранжевый цвет */
+    color: #e67e22;
     font-weight: bold;
     margin-right: 0.5rem;
 }
@@ -82,13 +81,89 @@
     color: #777;
 }
 
-/* Кнопка "View All Products" */
+
 .shop-all__view-all {
-    border: 1px solid #F6623E; /* Убираем рамку по умолчанию */
-    border-radius: 5px; /* Добавляем скругление (если нужно) */
+    border: 1px solid #F6623E; 
+    border-radius: 5px; 
     padding: 8px 16px; 
 }
 
 .shop-all__view-all:hover {
     background-color:#F6623E;
+}
+
+.shop-all__CenterImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+@media (max-width: 1150px) {
+    .shop-all__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .shop-all{
+        width: 50rem;
+    }
+    .shop-all__container {
+        padding: 0 1rem; 
+        
+    }
+
+    .shop-all__title {
+        font-size: 1.5rem; 
+    }
+
+    .shop-all__grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+        gap: 0.5rem; 
+    }
+
+    .shop-all__item {
+        padding: 0.25rem; 
+    }
+
+    .shop-all__product-name {
+        font-size: 0.8rem; 
+    }
+
+    .shop-all__price {
+        font-size: 0.7rem; 
+    }
+    .shop-all__image{
+        width: 200px;
+        height: 200px;
+    }
+    .shop-all__image-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop-all__CenterImg{
+        position: relative;
+    }
+    .shop-all__grid {
+        grid-template-columns: 1fr; 
+    }
+    .shop-all__image-wrapper {
+        width: 100%;
+    }
+    .shop-all__image {
+        width: 300px;
+        height: 300px;
+        display: block;
+    }
+    .shop-all__sale-badge {
+        position: absolute;
+        top: 0.7rem;  
+        right: 15.3rem;  
+    }
 }

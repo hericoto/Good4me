@@ -1,6 +1,7 @@
 .photos {
     padding: 0;
     margin-bottom: 70px; 
+    min-width: 100%;
 }
 
 .photos__container {
@@ -42,13 +43,31 @@
 
 
 @media (max-width: 768px) {
-    .photos__images {
-        flex-wrap: wrap; 
-        justify-content: flex-start; 
+    .photos {
+        width: 800px; 
     }
+    .photos__images {
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        gap: 0.5rem;  
+    }
+
     .photos__image {
-        width: 48%; 
-        margin-bottom: 10px;
+        width: 49%;  
+        height: 18rem;  
+        margin-bottom: 0.5rem;
     }
 }
+
+@media (max-width: 480px) {
+    
+    .photos__image {
+        width: 70%;
+        height: 20rem; 
+    }
+    .photos {
+        margin-bottom: 30px; 
+    }
+}
+
 
