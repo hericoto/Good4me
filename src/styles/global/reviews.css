@@ -1,5 +1,5 @@
 .reviews {
-    background-color: #FEF0E7; 
+    background-color: var(--bg-2); 
     padding: 2rem 0; 
     position: relative; 
     overflow: hidden; 
@@ -63,7 +63,7 @@
 
 .reviews__subtitle {
     font-size: 0.9rem;
-    color: black;
+    color: var(--text);
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -73,17 +73,18 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #F6623E; 
+    color: var(--accent); 
 }
 
 .reviews__rating {
     margin-bottom: 1rem;
-    color: #F6623E; 
+    color: var(--accent); 
     font: Jost;
 }
 
 .reviews__quote {
-    font-style: italic;
+    color:var(--text-subtitle);
+    font-style: Jost;
     line-height: 1.4;
     margin-bottom: 1rem;
 }
@@ -91,7 +92,7 @@
 .reviews__author {
     font-weight: bold;
     text-align: left;
-    color: #F6623E;
+    color: var(--accent);
 }
 
 .reviews__controls {
@@ -102,7 +103,7 @@
 
 .reviews__button {
     background-color: #FEF0E7;
-    border: 1px solid #F6623E; 
+    border: 1px solid var(--accent); 
     border-radius: 5px; 
     width: 2.5rem;       
     height: 2.5rem;     
@@ -111,7 +112,7 @@
     justify-content: center;
     cursor: pointer;       
     margin-right: 0.5rem;  
-    color: #F6623E;          
+    color: var(--accent);          
     font-size: 1rem;     
     transition: background-color 0.2s ease; 
 }
