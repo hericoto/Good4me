@@ -1,7 +1,7 @@
 .banner2 {
   position: relative;
-  min-height: 500px;
-  background: url('public/images/banner2.png') center/cover no-repeat;
+  min-height: 550px;
+  background-color: #FEF0E7;
   display: flex;
   align-items: center;
   justify-content: space-between;
