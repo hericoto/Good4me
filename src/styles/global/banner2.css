@@ -4,6 +4,14 @@
   background-color: #FEF0E7;
   display: flex;
   align-items: center;
+  padding: 0 20px;
+}
+
+.banner2__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0 7%;
 }
