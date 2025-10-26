@@ -43,6 +43,8 @@
 @import './styles/global/reviews.css';
 @import './styles/global/shop-all.css';
 @import './styles/global/latest-news.css';
+@import './styles/global/photos.css';
+@import './styles/global/footer.css';
 
 body {
   background: var(--bg-page);
