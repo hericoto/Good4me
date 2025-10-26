@@ -5,3 +5,9 @@
   line-height: 1.2;
   color: var(--accent);
 }
+
+@media (max-width: 480px) {
+  .banner1__details__title {
+    font-size: 16px;
+  }
+}

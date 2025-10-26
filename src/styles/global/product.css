@@ -5,3 +5,10 @@
   align-items: center;
   justify-content: flex-start;
 }
+
+@media (max-width: 480px) {
+  .product {
+    width: 50%;
+    max-width: 100%;
+  }
+}

@@ -14,3 +14,10 @@
   background: var(--accent);
   color: var(--text-on-accent);
 }
+
+@media (max-width: 480px) {
+  .banner2__details__button {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+}

@@ -9,3 +9,14 @@
 .product:nth-child(3) .product__image {
   padding: 10px;
 }
+
+@media (max-width: 480px) {
+  .product__image {
+    height: 150px;
+  }
+
+  .product:nth-child(1) .product__image,
+  .product:nth-child(3) .product__image {
+    padding: 5px;
+  }
+}

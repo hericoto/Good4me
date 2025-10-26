@@ -1,4 +1,12 @@
 .show-products {
+  min-width: 1536px;
   padding: 48px 10% 56px;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .show-products {
+    min-width: 22rem;
+    padding: 30px 20px 30px;
+  }
 }
