@@ -3,7 +3,8 @@
     background-color: #f9f5f1; 
     padding: 40px 0; 
     font-family: var(--font-family);
-    color: #666; 
+    color: hsl(0, 0%, 40%); 
+    
 }
 
 .footer__container {
@@ -161,4 +162,83 @@
     height: auto;
     display: inline-block; 
     vertical-align: middle; 
+}
+
+
+
+@media (max-width: 1024px) {
+    .footer{
+        min-width: 50rem;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .footer__section {
+        width: 80%;
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .footer__section--center,
+    .footer__section--right,
+    .footer__section--left {
+        width: 80%; 
+        text-align: center;
+    }
+
+    .footer__title {
+        font-size: 24px;
+    }
+
+    .footer__title_More_Info {
+        font-size: 18px;
+    }
+    .footer_botoom {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__section {
+        width: 95%; 
+        padding: 0;
+    }
+        .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem; 
+    }
+    .footer__payment-methods {
+        width: 250px; 
+    }
+    .footer__copyright {
+        font-size: 14px; 
+        text-align: center; 
+        margin-bottom: 20px;
+    }
+    .footer__social {
+        margin-bottom: 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__form {
+        flex-direction: column; 
+    }
+
+    .footer__email-input {
+        margin-bottom: 10px; 
+        text-align: center;  
+        padding: 0.5rem; 
+    }
+
+    .footer__subscribe-button {
+        width: 100%; 
+        padding: 0.7rem; 
+    }
+    .footer__section--center {
+        padding: 0; 
+    }
 }
