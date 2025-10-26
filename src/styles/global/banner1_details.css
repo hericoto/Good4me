@@ -5,3 +5,13 @@
   transform: translateY(-50%);
   max-width: 420px;
 }
+
+@media (max-width: 480px) {
+  .banner1_details {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+}

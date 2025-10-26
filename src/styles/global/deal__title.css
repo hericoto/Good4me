@@ -5,3 +5,9 @@
   line-height: 1.2;
   color: var(--text);
 }
+
+@media (max-width: 480px) {
+  .deal__title {
+    font-size: 20px;
+  }
+}

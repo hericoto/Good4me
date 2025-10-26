@@ -7,3 +7,10 @@
   text-align: center;
   color: var(--text);
 }
+
+@media (max-width: 480px) {
+  .product__caption {
+    font-size: 10px;
+    padding-top: 8px;
+  }
+}

@@ -28,3 +28,20 @@
   grid-column: 1;
   grid-row: 2;
 }
+
+@media (max-width: 480px) {
+  .banner2_images {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: 0 auto;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .banner2__image--girl3 {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+}

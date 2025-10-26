@@ -7,3 +7,10 @@
   line-height: 1.6;
   color: var(--text-subtitle);
 }
+
+@media (max-width: 480px) {
+  .deal__subtitle {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}

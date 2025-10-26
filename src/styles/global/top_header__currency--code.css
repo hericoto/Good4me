@@ -5,3 +5,9 @@
   font-weight: 400;
   color: var(--text-on-accent);
 }
+
+@media (max-width: 480px) {
+  .top_header__currency--code {
+    font-size: 14px;
+  }
+}

@@ -1,4 +1,5 @@
 .top_header {
+  min-width: 1536px;
   background: var(--accent);
   height: 50px;
   display: flex;
@@ -10,4 +11,14 @@
   color: var(--text-on-accent);
   padding-left: 10%;
   padding-right: 10%;
+}
+
+@media (max-width: 480px) {
+  .top_header {
+    min-width: unset;
+    height: 50px;
+    justify-content: center;
+    padding: 0 20px;
+    font-size: 14px;
+  }
 }

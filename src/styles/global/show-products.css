@@ -1,4 +1,5 @@
 .show-products {
+  min-width: 1536px;
   padding: 48px 10% 56px;
   text-align: center;
 }

@@ -3,3 +3,10 @@
   align-items: center;
   gap: 8px;
 }
+
+@media (max-width: 480px) {
+  .top_header__auth {
+    font-size: 14px;
+    gap: 6px;
+  }
+}

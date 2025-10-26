@@ -1,8 +1,18 @@
 .center_header {
+  min-width: 1536px;
   background: var(--bg-page);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+@media (max-width: 480px) {
+  .center_header {
+    min-width: unset;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    gap: 15px;
+  }
 }
