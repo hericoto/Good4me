@@ -4,3 +4,9 @@
   align-items: center;
   margin: 0 auto;
 }
+
+@media (max-width: 480px) {
+  .center_header__nav {
+    display: none;
+  }
+}

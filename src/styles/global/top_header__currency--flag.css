@@ -4,3 +4,9 @@
   object-fit: cover;
   border-radius: 2px;
 }
+
+@media (max-width: 480px) {
+  .top_header__currency--flag {
+    display: none;
+  }
+}

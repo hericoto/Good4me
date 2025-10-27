@@ -6,3 +6,9 @@
   color: var(--text);
   padding-top: 8px;
 }
+
+@media (max-width: 480px) {
+  .banner1__details__subtitle {
+    font-size: 24px;
+  }
+}

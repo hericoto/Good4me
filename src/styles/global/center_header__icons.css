@@ -3,3 +3,9 @@
   align-items: center;
   gap: 16px;
 }
+
+@media (max-width: 480px) {
+  .center_header__icons {
+    gap: 12px;
+  }
+}

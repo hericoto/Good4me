@@ -1,0 +1,10 @@
+.top_header__notice {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .top_header__notice {
+    display: none;
+  }
+}
+

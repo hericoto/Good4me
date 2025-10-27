@@ -6,3 +6,10 @@
   text-align: center;
   color: var(--text-caption);
 }
+
+@media (max-width: 480px) {
+  .service__caption--v1 {
+    font-size: 11px;
+    padding-top: 8px;
+  }
+}

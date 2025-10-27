@@ -3,3 +3,9 @@
   width: auto;
   object-fit: contain;
 }
+
+@media (max-width: 480px) {
+  .center_header__logo--base {
+    height: 32px;
+  }
+}

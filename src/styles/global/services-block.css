@@ -1,7 +1,19 @@
 .services-block {
+  min-width: 1536px;
   display: flex;
   justify-content: center;
   gap: 24px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  .services-block {
+    min-width: 22rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
