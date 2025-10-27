@@ -1,5 +1,4 @@
 @import './styles/global/media.css';
-@import './styles/colors/colors.css';
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
@@ -12,11 +11,13 @@
 @import './styles/global/top_header__currency--code.css';
 @import './styles/global/center_header.css';
 @import './styles/global/center_header__logo.css';
-@import './styles/global/center_header__logo--base.css';
+@import './styles/global/center_header__logo--dark.css';
 @import './styles/global/center_header__nav.css';
 @import './styles/global/nav__link.css';
 @import './styles/global/banner1.css';
+@import './styles/global/banner1__background.css';
 @import './styles/global/banner1__edge.css';
+@import './styles/global/banner1__edge--dark.css';
 @import './styles/global/banner1_details.css';
 @import './styles/global/banner1__details__title.css';
 @import './styles/global/banner1__details__subtitle.css';
@@ -24,13 +25,14 @@
 @import './styles/global/banner1__details__button.css';
 @import './styles/global/center_header__icons.css';
 @import './styles/global/center_header__icons--search.css';
+@import './styles/global/center_header__icons--search--dark.css';
 @import './styles/global/center_header__icons--bag.css';
 @import './styles/global/center_header__icons--bag-icon.css';
+@import './styles/global/center_header__icons--bag-icon--dark.css';
 @import './styles/global/center_header__icons--bag-badge.css';
 @import './styles/global/deal.css';
 @import './styles/global/deal__title.css';
 @import './styles/global/deal__divider.css';
-@import './styles/global/deal__divider--v1.css';
 @import './styles/global/deal__subtitle.css';
 @import './styles/global/products.css';
 @import './styles/global/product.css';
