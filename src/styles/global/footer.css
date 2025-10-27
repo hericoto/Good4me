@@ -1,6 +1,6 @@
 .footer {
     position: relative;
-    background-color: #f9f5f1; 
+    background-color: var(--text-on-accent); 
     padding: 40px 0; 
     font-family: var(--font-family);
     color: var(--text-caption); 

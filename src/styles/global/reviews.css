@@ -102,7 +102,7 @@
 }
 
 .reviews__button {
-    background-color: #FEF0E7;
+    background-color: var(--bg-2);
     border: 1px solid var(--accent); 
     border-radius: 5px; 
     width: 2.5rem;       
@@ -119,7 +119,7 @@
 
 .reviews__button:hover {
     background-color: brown; 
-    color: #fff;  
+    color: var(--bg-page);  
 }
 
 .reviews__image {
