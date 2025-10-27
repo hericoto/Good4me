@@ -11,7 +11,7 @@
 @import './styles/global/top_header__currency--code.css';
 @import './styles/global/center_header.css';
 @import './styles/global/center_header__logo.css';
-@import './styles/global/center_header__logo--base.css';
+@import './styles/global/center_header__logo--dark.css';
 @import './styles/global/center_header__nav.css';
 @import './styles/global/nav__link.css';
 @import './styles/global/banner1.css';
@@ -25,8 +25,10 @@
 @import './styles/global/banner1__details__button.css';
 @import './styles/global/center_header__icons.css';
 @import './styles/global/center_header__icons--search.css';
+@import './styles/global/center_header__icons--search--dark.css';
 @import './styles/global/center_header__icons--bag.css';
 @import './styles/global/center_header__icons--bag-icon.css';
+@import './styles/global/center_header__icons--bag-icon--dark.css';
 @import './styles/global/center_header__icons--bag-badge.css';
 @import './styles/global/deal.css';
 @import './styles/global/deal__title.css';

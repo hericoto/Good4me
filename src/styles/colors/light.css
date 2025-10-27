@@ -14,4 +14,16 @@
     .banner1__edge--dark {
         display: none;
     }
+    .service__image--dark {
+      display: none;
+    }
+    .center_header__logo--dark{
+      display: none;
+    }
+    .center_header__icons--search--dark {
+      display: none;
+    }
+    .center_header__icons--bag-icon--dark {
+      display: none;
+    }
 }

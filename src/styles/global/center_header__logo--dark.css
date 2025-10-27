@@ -1,11 +1,11 @@
-.center_header__logo--base {
+.center_header__logo--dark {
+  align-items: center;
   height: 40px;
   width: auto;
   object-fit: contain;
 }
-
 @media (max-width: 480px) {
-  .center_header__logo--base {
+  .center_header__logo--dark {
     height: 32px;
   }
 }
