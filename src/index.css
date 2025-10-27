@@ -15,7 +15,9 @@
 @import './styles/global/center_header__nav.css';
 @import './styles/global/nav__link.css';
 @import './styles/global/banner1.css';
+@import './styles/global/banner1__background.css';
 @import './styles/global/banner1__edge.css';
+@import './styles/global/banner1__edge--dark.css';
 @import './styles/global/banner1_details.css';
 @import './styles/global/banner1__details__title.css';
 @import './styles/global/banner1__details__subtitle.css';
@@ -29,7 +31,6 @@
 @import './styles/global/deal.css';
 @import './styles/global/deal__title.css';
 @import './styles/global/deal__divider.css';
-@import './styles/global/deal__divider--v1.css';
 @import './styles/global/deal__subtitle.css';
 @import './styles/global/products.css';
 @import './styles/global/product.css';

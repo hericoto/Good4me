@@ -9,3 +9,9 @@
   --accent: #f6623e;
   --surface: #f4f3f4;
 }
+
+@media (prefers-color-scheme: light) {
+    .banner1__edge--dark {
+        display: none;
+    }
+}

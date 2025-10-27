@@ -1,4 +1,4 @@
-.banner1__edge {
+.banner1__edge--dark {
   position: absolute;
   left: 0;
   right: 0;
@@ -8,4 +8,3 @@
   object-fit: cover;
   z-index: 2;
 }
-

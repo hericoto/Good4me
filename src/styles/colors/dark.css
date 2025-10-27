@@ -6,6 +6,15 @@
   --text-subtitle: #c4c4c4;
   --text-caption: #6f6f6f;
   --text-on-accent: #000000;
-  --accent: #30130c;
+  --accent: #f6623e;
   --surface: #2d2d2d;
 }
+
+{@media (prefers-color-scheme: dark) {
+    .banner1__background {
+      opacity: 0.6;
+    }
+    .banner1__edge {
+        display: none;
+    }
+}}
