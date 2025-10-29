@@ -1,12 +1,11 @@
 .deal {
-  min-width: 1536px;
+  min-width: 100%;
   padding: 48px 10% 0px;
   text-align: center;
 }
 
 @media (max-width: 480px) {
   .deal {
-    min-width: 22rem;
     padding: 30px 20px 0px;
   }
 }

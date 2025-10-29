@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-/* Заголовок */
 .shop-all__title {
     color:var(--text);
     font-size: 36px;
@@ -19,7 +18,6 @@
     margin-bottom: 2rem;
 }
 
-/* Сетка товаров */
 .shop-all__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
