@@ -136,14 +136,14 @@
 
 @media (max-width: 768px) {
     .reviews {
-        height: 30rem; 
+        height: auto; 
         padding: 1rem 0; 
         align-items: flex-start; 
-        width: 100rem;
+        width: 50rem;
     }
 
     .reviews__container {
-        height: 30rem;
+        flex-direction: column;
         padding: 0 1rem;
     }
 
@@ -196,15 +196,9 @@
 
 @media (max-width: 480px) { 
     .reviews {
-        width: auto;
-        height: auto;
         padding: 0.5rem 0; 
     }
-    .reviews__container {
-        height: auto;
-        width: auto;
-        padding: 0 1rem;
-    }
+
     .reviews__subtitle {
         font-size: 0.7rem; 
     }
@@ -227,47 +221,18 @@
 
 
 
-@media (max-width: 400px) {
-    .reviews {
+@media (max-width: 300px) {
+    .review-container {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    .review-text {
+        font-size: 0.8em; 
+    }
+
+    .review-image {
+        max-width: 100%;
         height: auto; 
-        width: auto; 
-        box-sizing: border-box; 
-        padding: 0.5rem; 
-    }
-
-    .reviews__container {
-        height: auto; 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%; 
-        padding: 0.5rem; 
-        box-sizing: border-box; 
-    }
-
-    .reviews__text {
-        width: 100%; 
-        text-align: center; 
-    }
-
-    .reviews__subtitle {
-        font-size: 0.6rem; 
-    }
-
-    .reviews__title {
-        font-size: 1rem;
-    }
-
-    .reviews__quote {
-        font-size: 0.7rem; 
-    }
-
-    .reviews__image {
-        width: 100%; 
-    }
-
-    .reviews__controls {
-        justify-content: center; 
     }
 }
