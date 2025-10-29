@@ -1,5 +1,6 @@
 .shop-all {
     padding: 2rem 0;
+    width: 100rem;
 }
 
 .shop-all__container {
@@ -108,12 +109,8 @@
 }
 
 @media (max-width: 768px) {
-    .shop-all{
-        width: 50rem;
-    }
     .shop-all__container {
         padding: 0 1rem; 
-        
     }
 
     .shop-all__title {
@@ -121,7 +118,6 @@
     }
 
     .shop-all__grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
         gap: 0.5rem; 
     }
 
@@ -153,9 +149,7 @@
     .shop-all__CenterImg{
         position: relative;
     }
-    .shop-all__grid {
-        grid-template-columns: 1fr; 
-    }
+    
     .shop-all__image-wrapper {
         width: 100%;
     }
@@ -170,3 +164,4 @@
         right: 15.3rem;  
     }
 }
+
