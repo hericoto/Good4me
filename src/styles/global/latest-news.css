@@ -4,7 +4,7 @@
 }
 
 .latest-news__container {
-    max-width: 1000px; 
+    max-width: 100%; 
     margin: 0 auto; 
     padding: 0 20px; 
 }
@@ -92,12 +92,11 @@
     }
     .latest-news__image {
         width: auto; 
-        max-width: 100%; 
         height: auto; 
         max-height: 300px;
     }
     .latest-news {
-        width: 50rem;
+        width: 100%;
     }
     
     .latest-news__articles {
@@ -107,7 +106,7 @@
 
     .latest-news__article {
         margin-bottom: 20px; 
-        width: 40rem;
+        width: 100%;
     }
 }
 
@@ -129,6 +128,6 @@
     }
 
     .latest-news__text {
-        font-size: 18px; 
+        font-size: 10px; 
     }
 }
