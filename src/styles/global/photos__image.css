@@ -1,0 +1,19 @@
+.photos__image {
+    width: 16.66666667%; 
+    height: 15rem;
+    object-fit: cover; 
+}
+@media (max-width: 768px) {
+    .photos__image {
+        width: 49%;  
+        height: 18rem;  
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .photos__image {
+        width: 70%;
+        height: 20rem; 
+    }
+}

@@ -69,6 +69,11 @@
 @import './styles/global/latest-news.css';
 
 @import './styles/global/photos.css';
+@import './styles/global/photos__container.css';
+@import './styles/global/photos__image.css';
+@import './styles/global/photos__images.css';
+@import './styles/global/photos__title.css';
+@import './styles/global/photos-centerSectionPhotos.css';
 
 @import './styles/global/footer.css';
 @import './styles/global/footer__container.css';

@@ -1,0 +1,13 @@
+.photos__images {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px; 
+}
+@media (max-width: 768px) {
+    .photos__images {
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        gap: 0.5rem;  
+    }
+}

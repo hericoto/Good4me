@@ -4,65 +4,7 @@
     width: 100%;
 }
 
-.photos__container {
-    width: 100%; 
-    margin: 0 auto;
-    padding: 0;
-}
-
-.titile-centerSectionPhotos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-
-.photos__title {
-    font-family: var(--text);
-    font-style: Jost;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.2;
-    color: var(--text);
-    text-align: center; 
-    margin-bottom: 20px;
-}
-
-.photos__images {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 10px; 
-}
-
-.photos__image {
-    width: 16.66666667%; 
-    height: 15rem;
-    object-fit: cover; 
-}
-
-
-@media (max-width: 768px) {
-    .photos__images {
-        flex-wrap: wrap;
-        justify-content: space-around; 
-        gap: 0.5rem;  
-    }
-
-    .photos__image {
-        width: 49%;  
-        height: 18rem;  
-        margin-bottom: 0.5rem;
-    }
-}
-
 @media (max-width: 480px) {
-    
-    .photos__image {
-        width: 70%;
-        height: 20rem; 
-    }
     .photos {
         margin-bottom: 30px; 
     }
