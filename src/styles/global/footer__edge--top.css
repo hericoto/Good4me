@@ -1,0 +1,4 @@
+.footer__edge--top {
+    top: 0;
+    transform: rotate(180deg);
+}

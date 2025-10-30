@@ -1,0 +1,16 @@
+.footer__bottom {
+    padding-top: 20px;
+    border-top: 1px solid var(--text-caption);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .footer__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem; 
+    }
+}

@@ -58,7 +58,34 @@
 @import './styles/global/shop-all.css';
 @import './styles/global/latest-news.css';
 @import './styles/global/photos.css';
+
 @import './styles/global/footer.css';
+@import './styles/global/footer__container.css';
+@import './styles/global/footer__bottom.css';
+@import './styles/global/footer__copyright.css';
+@import './styles/global/footer__description.css';
+@import './styles/global/footer__edge--top--dark.css';
+@import './styles/global/footer__edge--top.css';
+@import './styles/global/footer__edge.css';
+@import './styles/global/footer__email-input.css';
+@import './styles/global/footer__form.css';
+@import './styles/global/footer__links.css';
+@import './styles/global/footer__logo.css';
+@import './styles/global/footer__payment-methods.css';
+@import './styles/global/footer__section--center.css';
+@import './styles/global/footer__section--left.css';
+@import './styles/global/footer__section--right.css';
+@import './styles/global/footer__section.css';
+@import './styles/global/footer__social-link.css';
+@import './styles/global/footer__social.css';
+@import './styles/global/footer__span.css';
+@import './styles/global/footer__subscribe-button.css';
+@import './styles/global/footer__subscribe-text.css';
+@import './styles/global/footer__title_More_Info.css';
+@import './styles/global/footer__title.css';
+@import './styles/global/footer_botoom.css';
+@import './styles/global/footer_textCenter.css';
+
 
 body {
   background: var(--bg-page);

@@ -1,0 +1,11 @@
+.footer__payment-methods {
+    width: 200px; 
+    height: auto;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+@media (max-width: 600px) {
+    .footer__payment-methods {
+        width: 250px; 
+    }
+}
