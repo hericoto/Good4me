@@ -1,6 +1,6 @@
 .footer {
     position: relative;
-    background-color: var(--text-on-accent); 
+    background-color: var(--bg-2); 
     padding: 40px 0; 
     font-family: var(--font-family);
     color: var(--text-caption); 
@@ -27,6 +27,10 @@
 }
 
 .footer__edge--top {
+    top: 0;
+    transform: rotate(180deg);
+}
+.footer__edge--top--dark {
     top: 0;
     transform: rotate(180deg);
 }

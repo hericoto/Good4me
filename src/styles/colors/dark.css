@@ -29,4 +29,23 @@
     .center_header__icons--bag-icon {
       display: none;
     }
+    .reviews__edge.reviews__edge--top {
+      display: none;
+    }
+    .reviews__edge.reviews__edge--bottom{
+      display: none;
+    }
+    .reviews__image-item {
+      display: none;
+    }
+    .footer__edge.footer__edge--top{
+      display: none;
+    }
+    .footer__logo__image{
+      display: none;
+    }
+    .photos__image {
+      opacity: 0.7;
+    }
+    
 }
