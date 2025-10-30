@@ -1,0 +1,10 @@
+.reviews__author {
+    font-weight: bold;
+    text-align: left;
+    color: var(--accent);
+}
+@media (max-width: 768px) {
+    .reviews__author {
+        text-align: center;
+    }
+}

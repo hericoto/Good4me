@@ -55,6 +55,26 @@
 @import './styles/global/product__image--v2.css';
 
 @import './styles/global/reviews.css';
+@import './styles/global/reviews__author.css';
+@import './styles/global/reviews__background--bottom.css';
+@import './styles/global/reviews__background--top.css';
+@import './styles/global/reviews__background.css';
+@import './styles/global/reviews__button.css';
+@import './styles/global/reviews__container.css';
+@import './styles/global/reviews__controls.css';
+@import './styles/global/reviews__edge--bottom--dark.css';
+@import './styles/global/reviews__edge--bottom.css';
+@import './styles/global/reviews__edge--top--dark.css';
+@import './styles/global/reviews__edge--top.css';
+@import './styles/global/reviews__edge.css';
+@import './styles/global/reviews__image-item--dark.css';
+@import './styles/global/reviews__image-item.css';
+@import './styles/global/reviews__image.css';
+@import './styles/global/reviews__quote.css';
+@import './styles/global/reviews__rating.css';
+@import './styles/global/reviews__subtitle.css';
+@import './styles/global/reviews__text.css';
+@import './styles/global/reviews__title.css';
 
 @import './styles/global/shop-all.css';
 @import './styles/global/shop-all__CenterImg.css';

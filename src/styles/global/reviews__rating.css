@@ -1,0 +1,10 @@
+.reviews__rating {
+    margin-bottom: 1rem;
+    color: var(--accent); 
+    font: Jost;
+}
+@media (max-width: 768px) {
+    .reviews__rating {
+        margin-bottom: 0.8rem;
+    }
+}
