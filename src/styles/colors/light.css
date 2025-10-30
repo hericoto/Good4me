@@ -26,4 +26,20 @@
     .center_header__icons--bag-icon--dark {
       display: none;
     }
+    .reviews__edge.reviews__edge--top--dark {
+      display: none;
+    }
+    .reviews__edge.reviews__edge--bottom--dark{
+      display: none;
+    }
+    .reviews__image-item--dark {
+      display: none;
+    }
+    .footer__edge.footer__edge--top--dark{
+      display: none;
+    }
+    .footer__logo__image--dark{
+      display: none;
+    }
+    
 }
