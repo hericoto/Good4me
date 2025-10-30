@@ -56,7 +56,18 @@
 
 @import './styles/global/reviews.css';
 @import './styles/global/shop-all.css';
+
+@import './styles/global/latest-news__articles.css';
+@import './styles/global/latest-news__container.css';
+@import './styles/global/latest-news__content.css';
+@import './styles/global/latest-news__date.css';
+@import './styles/global/latest-news__headline.css';
+@import './styles/global/latest-news__image.css';
+@import './styles/global/latest-news__read-more.css';
+@import './styles/global/latest-news__text.css';
+@import './styles/global/latest-news__title.css';
 @import './styles/global/latest-news.css';
+
 @import './styles/global/photos.css';
 
 @import './styles/global/footer.css';

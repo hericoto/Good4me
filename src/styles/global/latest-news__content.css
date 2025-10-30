@@ -1,0 +1,9 @@
+.latest-news__content {
+    padding: 15px; 
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .latest-news__content {
+        padding: 10px; 
+    }
+}
