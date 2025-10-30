@@ -1,0 +1,5 @@
+.shop-all__price--sale {
+    color: var(--accent);
+    font-weight: bold;
+    margin-right: 0.5rem;
+}

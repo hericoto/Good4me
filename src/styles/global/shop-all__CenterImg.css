@@ -1,0 +1,10 @@
+.shop-all__CenterImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+@media (max-width: 480px) {
+    .shop-all__CenterImg{
+        position: relative;
+    }
+}

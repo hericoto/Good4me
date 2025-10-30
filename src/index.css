@@ -55,7 +55,21 @@
 @import './styles/global/product__image--v2.css';
 
 @import './styles/global/reviews.css';
+
 @import './styles/global/shop-all.css';
+@import './styles/global/shop-all__CenterImg.css';
+@import './styles/global/shop-all__container.css';
+@import './styles/global/shop-all__grid.css';
+@import './styles/global/shop-all__image-wrapper.css';
+@import './styles/global/shop-all__image.css';
+@import './styles/global/shop-all__price--original.css';
+@import './styles/global/shop-all__price--sale.css';
+@import './styles/global/shop-all__price.css';
+@import './styles/global/shop-all__product-name.css';
+@import './styles/global/shop-all__sale-badge.css';
+@import './styles/global/shop-all__title.css';
+@import './styles/global/shop-all__view-all.css';
+@import './styles/global/shop-all-centerText.css';
 
 @import './styles/global/latest-news__articles.css';
 @import './styles/global/latest-news__container.css';

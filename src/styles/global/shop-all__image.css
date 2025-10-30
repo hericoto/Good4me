@@ -1,0 +1,12 @@
+.shop-all__image {
+    width: auto;
+    height: 20rem;
+    display: block;
+}
+@media (max-width: 768px) {
+    .shop-all__image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
