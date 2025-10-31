@@ -12,3 +12,54 @@
     max-width: 280px;
   }
 }
+
+.services-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  .services-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.service__title--v1 {
+  padding-top: 15px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .service__title--v1 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+}
+
+.service__caption--v1 {
+  padding-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: var(--text-caption);
+}
+
+@media (max-width: 480px) {
+  .service__caption--v1 {
+    font-size: 11px;
+    padding-top: 8px;
+  }
+}
