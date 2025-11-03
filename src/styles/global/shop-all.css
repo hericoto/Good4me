@@ -52,7 +52,7 @@
     border-radius: 3px;
 }
 
-.shop-all-centerText{
+.shop-all-center-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@
     background-color:var(--accent);
 }
 
-.shop-all__CenterImg{
+.shop-all__center-img{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -145,7 +145,7 @@
 }
 
 @media (max-width: 480px) {
-    .shop-all__CenterImg{
+    .shop-all__center-img{
         position: relative;
     }
     
