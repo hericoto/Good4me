@@ -1,0 +1,5 @@
+.footer__social-link img {
+    width: 20px;
+    height: auto;
+    filter: invert(62%) sepia(3%) saturate(805%) hue-rotate(232deg) brightness(97%) contrast(84%);
+}

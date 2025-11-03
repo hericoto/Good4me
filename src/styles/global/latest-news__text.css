@@ -1,0 +1,12 @@
+.latest-news__text {
+    font-size: 16px; 
+    color: var(--text-caption); 
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-weight: 400; 
+}
+@media (max-width: 480px) {
+    .latest-news__text {
+        font-size: 10px; 
+    }
+}

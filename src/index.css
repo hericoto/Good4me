@@ -37,10 +37,87 @@
 @import './styles/global/show-products.css';
 
 @import './styles/global/reviews.css';
+@import './styles/global/reviews__author.css';
+@import './styles/global/reviews__background--bottom.css';
+@import './styles/global/reviews__background--top.css';
+@import './styles/global/reviews__background.css';
+@import './styles/global/reviews__button.css';
+@import './styles/global/reviews__container.css';
+@import './styles/global/reviews__controls.css';
+@import './styles/global/reviews__edge--bottom--dark.css';
+@import './styles/global/reviews__edge--bottom.css';
+@import './styles/global/reviews__edge--top--dark.css';
+@import './styles/global/reviews__edge--top.css';
+@import './styles/global/reviews__edge.css';
+@import './styles/global/reviews__image-item--dark.css';
+@import './styles/global/reviews__image-item.css';
+@import './styles/global/reviews__image.css';
+@import './styles/global/reviews__quote.css';
+@import './styles/global/reviews__rating.css';
+@import './styles/global/reviews__subtitle.css';
+@import './styles/global/reviews__text.css';
+@import './styles/global/reviews__title.css';
+
 @import './styles/global/shop-all.css';
+@import './styles/global/shop-all__CenterImg.css';
+@import './styles/global/shop-all__container.css';
+@import './styles/global/shop-all__grid.css';
+@import './styles/global/shop-all__image-wrapper.css';
+@import './styles/global/shop-all__image.css';
+@import './styles/global/shop-all__price--original.css';
+@import './styles/global/shop-all__price--sale.css';
+@import './styles/global/shop-all__price.css';
+@import './styles/global/shop-all__product-name.css';
+@import './styles/global/shop-all__sale-badge.css';
+@import './styles/global/shop-all__title.css';
+@import './styles/global/shop-all__view-all.css';
+@import './styles/global/shop-all-centerText.css';
+
+@import './styles/global/latest-news__articles.css';
+@import './styles/global/latest-news__container.css';
+@import './styles/global/latest-news__content.css';
+@import './styles/global/latest-news__date.css';
+@import './styles/global/latest-news__headline.css';
+@import './styles/global/latest-news__image.css';
+@import './styles/global/latest-news__read-more.css';
+@import './styles/global/latest-news__text.css';
+@import './styles/global/latest-news__title.css';
 @import './styles/global/latest-news.css';
+
 @import './styles/global/photos.css';
+@import './styles/global/photos__container.css';
+@import './styles/global/photos__image.css';
+@import './styles/global/photos__images.css';
+@import './styles/global/photos__title.css';
+@import './styles/global/photos-centerSectionPhotos.css';
+
 @import './styles/global/footer.css';
+@import './styles/global/footer__container.css';
+@import './styles/global/footer__bottom.css';
+@import './styles/global/footer__copyright.css';
+@import './styles/global/footer__description.css';
+@import './styles/global/footer__edge--top--dark.css';
+@import './styles/global/footer__edge--top.css';
+@import './styles/global/footer__edge.css';
+@import './styles/global/footer__email-input.css';
+@import './styles/global/footer__form.css';
+@import './styles/global/footer__links.css';
+@import './styles/global/footer__logo.css';
+@import './styles/global/footer__payment-methods.css';
+@import './styles/global/footer__section--center.css';
+@import './styles/global/footer__section--left.css';
+@import './styles/global/footer__section--right.css';
+@import './styles/global/footer__section.css';
+@import './styles/global/footer__social-link.css';
+@import './styles/global/footer__social.css';
+@import './styles/global/footer__span.css';
+@import './styles/global/footer__subscribe-button.css';
+@import './styles/global/footer__subscribe-text.css';
+@import './styles/global/footer__title_More_Info.css';
+@import './styles/global/footer__title.css';
+@import './styles/global/footer_botoom.css';
+@import './styles/global/footer_textCenter.css';
+
 
 body {
   background: var(--bg-page);

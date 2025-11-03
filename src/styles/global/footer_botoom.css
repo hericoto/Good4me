@@ -1,0 +1,9 @@
+.footer_botoom{
+    margin-bottom: 7rem;
+}
+
+@media (max-width: 1024px) {
+    .footer_botoom {
+        margin-bottom: 3rem;
+    }
+}

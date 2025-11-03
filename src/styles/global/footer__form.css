@@ -1,0 +1,10 @@
+.footer__form {
+    display: flex; 
+    border-bottom: 1px solid var(--text); 
+    padding-bottom: 5px;
+}
+@media (max-width: 480px) {
+    .footer__form {
+        flex-direction: column; 
+    }
+}

@@ -1,0 +1,16 @@
+.latest-news__articles {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1; 
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .latest-news__articles {
+        flex-direction: column; 
+        align-items: center;
+    }
+}

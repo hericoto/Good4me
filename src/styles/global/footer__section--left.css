@@ -1,0 +1,9 @@
+.footer__section--left{
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .footer__section--left {
+        width: 80%; 
+        text-align: center;
+    }
+}

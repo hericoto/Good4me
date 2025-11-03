@@ -1,0 +1,17 @@
+.reviews__image {
+    width: 30%;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 768px) {
+    .reviews__image {
+        width: 50%; 
+        height: 30rem;
+    }
+}
+@media (max-width: 300px) {
+    .reviews__image {
+        max-width: 100%;
+        height: auto; 
+    }
+}

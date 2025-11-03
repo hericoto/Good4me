@@ -1,0 +1,4 @@
+.shop-all__price--original {
+    text-decoration: line-through;
+    color: var(--text-caption);
+}

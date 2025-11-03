@@ -1,0 +1,14 @@
+.latest-news__read-more {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--text-on-accent);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    padding: 12px 20px;
+}
+
+.latest-news__read-more:hover {
+    background-color: var(--accent); 
+}

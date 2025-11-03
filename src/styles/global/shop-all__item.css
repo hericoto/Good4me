@@ -1,0 +1,10 @@
+.shop-all__item {
+    text-align: left;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+}
+@media (max-width: 768px) {
+    .shop-all__item {
+        padding: 0.25rem; 
+    }
+}

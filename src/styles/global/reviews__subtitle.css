@@ -1,0 +1,19 @@
+.reviews__subtitle {
+    font-size: 0.9rem;
+    color: var(--text);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .reviews__subtitle {
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media (max-width: 480px) { 
+    .reviews__subtitle {
+        font-size: 0.7rem; 
+    }
+}
