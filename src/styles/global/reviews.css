@@ -23,17 +23,11 @@
     top: 0;
     transform: rotate(180deg);
 }
-.reviews__edge--top--dark {
-    top: 0;
-    transform: rotate(180deg);
-}
 
 .reviews__edge--bottom {
     bottom: 0;
 }
-.reviews__edge--bottom--dark {
-    bottom: 0;
-}
+
 .reviews__container {
     display: flex;
     align-items: center;

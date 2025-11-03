@@ -52,7 +52,7 @@
     border-radius: 3px;
 }
 
-.shop-all-center-text{
+.shop-all__center-text{
     display: flex;
     justify-content: center;
     align-items: center;
