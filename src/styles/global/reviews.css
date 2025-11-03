@@ -10,6 +10,132 @@
     min-width: 100%;
 }
 
+.reviews__edge {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+.reviews__edge--top {
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.reviews__edge--bottom {
+    bottom: 0;
+}
+
+.reviews__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+.reviews__background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.reviews__background--top {
+    top: 0;
+    left: 0;
+}
+
+.reviews__background--bottom {
+    bottom: 0;
+    left: 0;
+}
+
+.reviews__text {
+    width: 40%; 
+    position: relative; 
+    z-index: 2;
+}
+
+.reviews__subtitle {
+    font-size: 0.9rem;
+    color: var(--text);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.reviews__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--accent); 
+}
+
+.reviews__rating {
+    margin-bottom: 1rem;
+    color: var(--accent); 
+    font: Jost;
+}
+
+.reviews__quote {
+    color:var(--text-subtitle);
+    font-style: Jost;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.reviews__author {
+    font-weight: bold;
+    text-align: left;
+    color: var(--accent);
+}
+
+.reviews__controls {
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 1rem;
+}
+
+.reviews__button {
+    background-color: var(--bg-2);
+    border: 1px solid var(--accent); 
+    border-radius: 5px; 
+    width: 2.5rem;       
+    height: 2.5rem;     
+    display: flex;        
+    align-items: center;   
+    justify-content: center;
+    cursor: pointer;       
+    margin-right: 0.5rem;  
+    color: var(--accent);          
+    font-size: 1rem;     
+    transition: background-color 0.2s ease; 
+}
+
+.reviews__button:hover {
+    background-color: brown; 
+    color: var(--bg-page);  
+}
+
+.reviews__image {
+    width: 30%;
+    position: relative;
+    z-index: 2;
+}
+
+.reviews__image-item {
+    width: 100%;
+    height: auto;
+}
+.reviews__image-item--dark {
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 768px) {
     .reviews {
         padding: 1rem 0; 

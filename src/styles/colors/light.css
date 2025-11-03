@@ -26,19 +26,16 @@
     .center_header__icons--bag-icon--dark {
       display: none;
     }
-    .reviews__edge.reviews__edge--top--dark {
-      display: none;
-    }
-    .reviews__edge.reviews__edge--bottom--dark{
+    .reviews__edge.reviews__edge--dark{
       display: none;
     }
     .reviews__image-item--dark {
       display: none;
     }
-    .footer__edge.footer__edge--top--dark{
+    .footer__edge.footer__edge--dark{
       display: none;
     }
-    .footer__logo__image--dark{
+    .footer__logo-image--dark{
       display: none;
     }
     
