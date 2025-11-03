@@ -1,9 +1,0 @@
-.shop-all__view-all {
-    border: 1px solid var(--accent); 
-    border-radius: 5px; 
-    padding: 8px 16px; 
-}
-
-.shop-all__view-all:hover {
-    background-color:var(--accent);
-}

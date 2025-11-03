@@ -1,8 +1,0 @@
-.shop-all__price {
-    font-size: 0.8rem;
-}
-@media (max-width: 768px) { 
-    .shop-all__price {
-        font-size: 0.7rem; 
-    }
-}
