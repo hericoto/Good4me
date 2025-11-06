@@ -15,9 +15,10 @@
 @import './styles/global/product.css';
 @import './styles/global/product__image.css';
 @import './styles/global/product__caption.css';
+@import './styles/global/services-block.css';
 @import './styles/global/service.css';
 @import './styles/global/banner2.css';
-@import './styles/global/banner2_details.css';
+@import './styles/global/container2.css';
 @import './styles/global/banner2__details__button.css';
 @import './styles/global/banner2_images.css';
 @import './styles/global/show-products.css';
