@@ -50,6 +50,9 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.details__text--container2 p {
+  padding-bottom: 20px;
+}
 
 @media (max-width: 480px) {
   .details__text--container2 {
