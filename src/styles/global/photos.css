@@ -10,7 +10,7 @@
     padding: 0;
 }
 
-.titile-centerSectionPhotos{
+.photos__title-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +58,6 @@
 }
 
 @media (max-width: 480px) {
-    
-    .photos__image {
-        width: 70%;
-        height: 20rem; 
-    }
     .photos {
         margin-bottom: 30px; 
     }

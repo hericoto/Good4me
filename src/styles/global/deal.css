@@ -4,9 +4,44 @@
   text-align: center;
 }
 
+.deal__divider {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.deal__subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-subtitle);
+}
+
+.deal__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+
+
+
+
 @media (max-width: 480px) {
   .deal {
     padding: 30px 20px 0px;
+  }
+  .deal__subtitle {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .deal__title {
+    font-size: 20px;
   }
 }
 .deal__title {
