@@ -10,3 +10,8 @@ body {
     min-width: 22rem;
   }
 }
+
+
+.page__photos{
+  margin-bottom: 70px;
+}
