@@ -19,12 +19,11 @@
 @import './styles/global/service.css';
 @import './styles/global/banner2.css';
 @import './styles/global/container2.css';
-@import './styles/global/banner2__details__button.css';
-@import './styles/global/banner2_images.css';
+@import './styles/global/images.css';
 @import './styles/global/show-products.css';
 @import './styles/global/show-products__title.css';
 @import './styles/global/show-products__button-container.css';
-@import './styles/global/product__price.css';
+@import './styles/global/prices.css';
 @import './styles/global/product__sale-badge.css';
 @import './styles/global/product--with-sale.css';
 @import './styles/global/product__image--v2.css';

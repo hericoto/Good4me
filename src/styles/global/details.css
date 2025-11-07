@@ -93,3 +93,21 @@
     padding: 10px 16px;
   }
 }
+
+.details__button--container2 {
+  background: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--accent);
+}
+
+.details__button--container2:hover {
+  background: var(--accent);
+  color: var(--text-on-accent);
+}
+
+@media (max-width: 480px) {
+  .details__button--container2 {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+}
