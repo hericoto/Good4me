@@ -13,20 +13,13 @@
 @import './styles/global/deal.css';
 @import './styles/global/products.css';
 @import './styles/global/product.css';
-@import './styles/global/product__image.css';
-@import './styles/global/product__caption.css';
 @import './styles/global/services-block.css';
 @import './styles/global/service.css';
 @import './styles/global/banner2.css';
 @import './styles/global/container2.css';
 @import './styles/global/images.css';
 @import './styles/global/show-products.css';
-@import './styles/global/show-products__title.css';
-@import './styles/global/show-products__button-container.css';
 @import './styles/global/prices.css';
-@import './styles/global/product__sale-badge.css';
-@import './styles/global/product--with-sale.css';
-@import './styles/global/product__image--v2.css';
 @import './styles/global/reviews.css';
 
 @import './styles/global/shop-all.css';
