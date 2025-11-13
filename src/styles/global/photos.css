@@ -1,6 +1,6 @@
 .photos {
     padding: 0;
-    margin-bottom: 70px; 
+    /* margin-bottom: 70px;  */
     width: 100%;
 }
 
@@ -61,6 +61,12 @@
     .photos {
         margin-bottom: 30px; 
     }
+}
+
+@media (prefers-color-scheme: dark){
+  .photos__image {
+    opacity: 0.7;
+  }
 }
 
 

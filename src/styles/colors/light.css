@@ -26,17 +26,4 @@
     .icons__bag-icon.icons__bag-icon--dark {
       display: none;
     }
-    .reviews__edge.reviews__edge--dark{
-      display: none;
-    }
-    .reviews__image-item--dark {
-      display: none;
-    }
-    .footer__edge.footer__edge--dark{
-      display: none;
-    }
-    .footer__logo-image--dark{
-      display: none;
-    }
-    
 }

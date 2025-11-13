@@ -254,3 +254,22 @@
         padding: 0; 
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+  .footer__edge--light{
+    display: none;
+  }
+  .footer__logo-image--light{
+    display: none;
+  }
+}
+@media (prefers-color-scheme: light){
+  .footer__edge--dark{
+    display: none;
+  }
+  .footer__logo-image--dark{
+    display: none;
+  }
+}
+
