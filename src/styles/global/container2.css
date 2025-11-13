@@ -1,0 +1,12 @@
+.container2__details {
+  max-width: 400px;
+  text-align: left;
+}
+@media (max-width: 480px) {
+  .container2__details {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,4 +1,5 @@
-.banner1_details {
+
+.container__details {
   position: absolute;
   top: 50%;
   right: 20%;
@@ -7,7 +8,7 @@
 }
 
 @media (max-width: 480px) {
-  .banner1_details {
+  .container__details {
     position: static;
     transform: none;
     max-width: 100%;

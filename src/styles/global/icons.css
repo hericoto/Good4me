@@ -1,0 +1,57 @@
+
+.icons__search {
+  height: 22px;
+  width: 22px;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .icons__search {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.icons--bag {
+  position: relative;
+}
+
+.icons__bag-icon {
+  height: 22px;
+  width: 22px;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .icons__bag-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+
+.icons__bag-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: var(--accent);
+  color: var(--text-on-accent);
+  border-radius: 9999px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .icons__bag-badge {
+    min-width: 14px;
+    height: 14px;
+    font-size: 8px;
+    line-height: 14px;
+    top: -5px;
+    right: -5px;
+  }
+}
